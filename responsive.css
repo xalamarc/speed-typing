@@ -10,7 +10,33 @@
     line-height: 60px;
     font-size: 2rem;
   }
+  .correct {
+    color: #fffef9;
+    font-size: 2rem;
+  }
+  .incorrect {
+    color: rgb(165, 68, 68);
+    font-size: 2rem;
+    text-decoration: underline;
+  }
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
+  .container {
+    margin-top: 50%;
+  }
+  .quote-text {
+    line-height: 60px;
+    font-size: 1.7rem;
+  }
+  .correct {
+    color: #fffef9;
+    font-size: 1.7rem;
+  }
+  .incorrect {
+    color: rgb(165, 68, 68);
+    font-size: 1.7rem;
+
+    text-decoration: underline;
+  }
 }
