@@ -1,8 +1,60 @@
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    max-height: 100vh;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+  }
+  .timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 2rem;
+    color: #dfd7af;
+    font-weight: bold;
+  }
+  .container {
+    margin-top: 5%;
+  }
+  .quote-text {
+    font-size: 1rem;
+  }
+  .correct {
+    color: #fffef9;
+    font-size: 1rem;
+  }
+  .incorrect {
+    color: rgb(165, 68, 68);
+    font-size: 1rem;
+
+    text-decoration: underline;
+  }
 }
 @media only screen and (max-width: 600px) {
-  /*Big smartphones [426px -> 600px]*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    max-height: 100vh;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+  }
   .container {
     margin-top: 50%;
   }
@@ -22,20 +74,41 @@
 }
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'M PLUS Code Latin', sans-serif;
+    max-height: 100vh;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+  }
+  .timer {
+    position: absolute;
+    top: 1rem;
+    font-size: 1.7rem;
+    color: #dfd7af;
+    font-weight: bold;
+  }
   .container {
-    margin-top: 50%;
+    margin-top: 5%;
   }
   .quote-text {
-    line-height: 60px;
-    font-size: 1.7rem;
+    font-size: 1rem;
   }
   .correct {
     color: #fffef9;
-    font-size: 1.7rem;
+    font-size: 1rem;
   }
   .incorrect {
     color: rgb(165, 68, 68);
-    font-size: 1.7rem;
+    font-size: 1rem;
 
     text-decoration: underline;
   }
